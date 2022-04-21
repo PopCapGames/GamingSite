@@ -15,8 +15,15 @@ footer{
         margin-left: 150px;
     }
 
+    .cards {
+      box-shadow: 0px 0px 17px -10px rgba(0, 0, 0, 0.75);
+    }
 
-
+    .cards:hover {
+      cursor: pointer;
+      box-shadow: 20px 20px 100px -50px #000;
+      transition: 0.3s;
+    }
 </style>
 
 <head>
@@ -36,6 +43,11 @@ footer{
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  
 </head>
 
 <body>
@@ -70,14 +82,394 @@ footer{
         <input type="checkbox" class="custom-control-input" id="selector">
         <label class="custom-control-label" for="selector">Dark Mode</label>
       </div>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search..">
-        <button type="submit" class="btn btn-outline-secondary my-2 my-sm-0">Search</button>
-      </form>
   
       </div>
     </nav>
 
+    <div class="container p-5 mt-2 ">
+      <div class="row d-flex justify-content-center ">
+        <div class="col-1"></div>
+        <div class="col-8">
+          <div class="input-group  mt-2">
+            <input type="text" placeholder="Search....." class="form-control" id="inp">
+            <div class="input-group-append">
+              <button type="button" class="btn btn-dark" id="search" style="z-index:0;">Search</button>
+            </div>
+          </div>
+        </div>
+        
+               
+               <!-- this video is part 2 -->
+            <!-- add to cart icon add -->
+  
+            <div class="col-md-3 d-flex justify-content-start">
+              <div class="pt-3 pl-0 pb-0 pr-0">
+                <i class="fas fa-shopping-cart fa-2x ml-md-5"></i>
+              </div>
+              <span class="badge badge-success mt-0 align-self-start" id="cart_item_count" style="margin-left: -25px;margin-top: -5px;">0</span>
+              
+            </div>
+  
+  
+  
+  
+  
+      </div>
+      <div class="row p-5" id="panel">
+        <h1 class="display-3 text-center text-muted" id="not_find_any_thing"></h1>
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="PS5.png" alt="" width="auto" height="130">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">Playstation 5 Sony Ps5</h5>
+                <div>
+                  <span class="text-success">₱</span><span class="text-success">38,490</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">16GB GDDR6 RAM 825GB custom SSD</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="Controller.png" alt="" width="auto" height="130">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">DualSense™ Wireless Controller</h5>
+                <div>
+                  <span class="text-success">₱</span><span class="text-success">3,800</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">White</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="Controller black.png" alt="" width="auto" height="130">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">DualSense™ Wireless Controller</h5>
+                <div>
+  
+                  <span class="text-success">₱</span><span class="text-success">3,800</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">Black</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="Headset.png" alt="" width="auto" height="130">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">Sony PULSE 3D Wireless Headset</h5>
+                <div>
+                  <span class="text-success">₱</span><span class="text-success">4500</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">White</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="Apex 7.png" alt="" width="auto" height="110">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">Steelseries Apex 7 TKL</h5>
+                <div>
+  
+                  <span class="text-success">₱</span><span class="text-success">6,795</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">Durable mechanical gaming switches</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="Keyboard.png" alt="" width="auto" height="110">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">Steelseries Apex Pro</h5>
+                <div>
+  
+                  <span class="text-success">₱</span><span class="text-success">9,295</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">Adjustable mechanical switches</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="Rival600.png" alt="" width="auto" height="110">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">Steelseries Rival 600</h5>
+                <div>
+                  <span class="text-success">₱</span><span class="text-success">3,395</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">State-of-the-art lift off distance detection</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="Aerox 3.png" alt="" width="auto" height="110">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">Steelseries Aerox 3</h5>
+                <div>
+  
+                  <span class="text-success">₱</span><span class="text-success">5,499</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">Ultra lightweight 59g design</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="Arctis 3.png" alt="" width="auto" height="160">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">Steelseries Arctis 3</h5>
+                <div>
+  
+                  <span class="text-success">₱</span><span class="text-success">3,460</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">Arctis signature soundscape emphasizes critical sounds</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="Arctis 5.png" alt="" width="auto" height="160">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title">Steelseries Arctis 5</h5>
+                <div>
+                  <span class="text-success">₱</span><span class="text-success">4,475</span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;">Next-generation DTS Headphone:X v2.0 surround sound</p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="" alt="">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+  
+                <h5 class="card-title"></h5>
+                <div>
+  
+                  <span class="text-success">₱</span><span class="text-success"></span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;"></p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+        <div class="col-md-6 col-lg-3 mt-5">
+          <div class="cards p-2">
+            <img class="card-img-top" src="" alt="">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="card-title"></h5>
+                <div>
+                  <span class="text-success">₱</span><span class="text-success"></span>
+                </div>
+              </div>
+              <p class="card-text" style="font-size:14px;"></p>
+              <div class="d-flex justify-content-between">
+  
+                <div class="bg-dark text-white text-center pl-2 pr-2 cart_btn">Buy Now</div>
+                <div class="bg-dark text-white text-center pl-2 pr-2">Wishlist</div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  
+   
+   <div class="row pr-md-5 d-flex justify-content-center justify-content-md-end bg-info">
+    <div class="col-md-6 col-lg-4 mr-lg-5 border p-3 pb-4 rounded-lg bg-white ml-md-0" id="cart" style="position: absolute;z-index: 1;top: 80px;overflow: auto;">
+  
+      <div class="d-flex">
+        <div class="col-md-3">
+           <h5>Product</h5>        
+        </div>
+        <div class="col-md-3 d-flex flex-wrap align-content-center">
+          <h5>Title</h5>
+        </div>
+        <div class="col-md-3 d-flex flex-wrap align-content-center">
+          <h5>Qty</h5>
+        </div>
+        <div class="col-md-2 d-flex flex-wrap align-content-center">
+          <h5>Price</h5>
+        </div>
+        <div class="col-md-1"></div>
+        
+      </div>
+  
+      <div id="order" style="overflow: auto;height: 250px;">
+        
+      </div>
+      <div id="cart_footer">
+    <div id="order_btn" class="text-center text-white w-100 bg-dark p-2 font-weight-bold" style="letter-spacing: 1.2px;font-size: 20px;">
+      Order
+    </div>      
+      </div>
+      
+    </div>
+     
+   </div>
+
+    <script src="jquery.js"></script>
 
     <script>
 
