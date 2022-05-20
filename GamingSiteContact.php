@@ -32,11 +32,11 @@ footer{
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
-
-
 </head>
 
 <body>
+
+<form action="GamingSiteOutput.php" method="POST">
 
     <div class="container mt-5 pt-5">
       <div class="row d-flex justify-content-center">

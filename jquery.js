@@ -31,11 +31,6 @@ else {
 });
 
 
- // this video is part 2 
-
-   // jquery for add to cart
-
-
 $(document).ready(function(){
 
 $("#cart").hide();
